@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-row>
+    <el-row >
       <el-col>
         <topbar />
       </el-col>
