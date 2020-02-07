@@ -1,53 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <style>
-        .search {
-            width:300px;
-            height: 30px;
-            margin: 100px auto;
-            position: relative;
-        }
-        .search input {
-            width:200px;
-            height:25px;
-            
-        }
-        .search label {
-            font-size: 12px;
-            color:#ccc;
-            position: absolute;
-            top:8px;
-            left:20px;
-            cursor: text;
-        }
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta content=always name=referrer>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">  
+    <title>css元素hover時控制另一个元素的显示隐藏</title>  
+    <style type="text/css">
+        .container{width:400px;height:200px;border:2px solid #ff0000;}
+        .cu_toolbar{background-color:#8bb907;height:100px;width:100px;display:none;}
+        .container:hover .cu_toolbar{display:block;}
     </style>
-    <script>
-        window.onload = function(){
-            function $(id){return document.getElementById(id);}
-            //oninput 大部分浏览器支持  检测用户表单输入内容
-            //onpropertychange  ie678  检测用户表单输入内容
-            $("txt").oninput = $("txt").onpropertychange = function(){
-                if(this.value == " ")
-                {
-                    $("message").style.display = "block";
-                }
-                else
-                {
-                    $("message").style.display = "none";
-
-                }
-            }
-        }
-    </script>
 </head>
 <body>
-<div class="search">
-    <input type="text" id="txt"/>
-    <label for="txt" id="message">必败的国际大牌</label>
-</div>
+    <div class="container">
+        <div class="cu_toolbar">            
+        </div>
+    </div>   
 </body>
 </html>
-

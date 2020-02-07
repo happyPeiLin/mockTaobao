@@ -140,5 +140,43 @@ a {
 
 }
 
+.el-headerT{
+  /* background-color: pink; */
+  height:162px !important;
+}
 
+.el-main{
+  height: 500px;
+  padding:0px;
+}
+
+.totalHigh{
+  height: 100%;
+}
+
+.forUl{
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.forUl li{
+  display: inline;
+  color: #ffffff;
+  font-weight: bold;
+  padding:0 10px;
+
+
+
+  /* float: left; */
+}
 /* 以下的需要转移*/
+
+.nick{
+  position: absolute;
+  color:green;
+  top: 0;
+  left: 0;
+  z-index:1000000000000000000;
+}

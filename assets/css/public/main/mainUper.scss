@@ -1,0 +1,44 @@
+.mainUperDiv{
+    height: 100%;
+    background-color:red;
+}
+
+.mainUper{
+    height: 30px;
+    background-color: #ff8C00;
+}
+
+.mainUperCol1{
+    width: 200px;
+    background-color: #FF8C00;
+}
+
+.mainUperCol2{
+    width: 190px;
+    background-color: #FF5000;
+}
+
+.mainUperCol2 h2{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+
+
+
+.mainUperCol3{
+    width: 1000px;
+    background-color: #FF8C00;
+    // background-color: blue;
+}
+
+.mainUperCol3 li{
+    display: inline-block;
+    position: relative;
+    overflow: visible;
+    z-index:10000000000000000000;
+}

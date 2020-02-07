@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2967246",
+      "name": "品牌标识-阿里旺旺",
+      "font_class": "pinpaibiaoshi-aliwangwang",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    }
+  ]
+}

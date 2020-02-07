@@ -1,10 +1,12 @@
 <template>
   <div class="layout-blank">
     <el-container>
-      <el-header>
+      <el-header class="el-headerT">
         <my-header />
       </el-header>
-      <el-main>Main</el-main>
+      <el-main>
+        <nuxt/>
+      </el-main>
       <el-footer>Footer</el-footer>
     </el-container>
   </div>
